@@ -1,9 +1,48 @@
 .Header{
-/* font-family: 'Poppins', sans-serif; */
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
    color: white;
    text-align: center;
    
 
+}
+.donate{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+   
+}
+#donate-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #121212;
+}
+.donate-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+#food{
+    align-items: center;
+    background-color: rgb(199, 240, 241);
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+}
+#shelter{
+    align-items: center;
+    background-color: rgb(248, 207, 190);
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+}
+#education{
+    align-items: center;
+    background-color: rgb(253, 253, 179);
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
 }
