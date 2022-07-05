@@ -1,12 +1,15 @@
 .Header{
-
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+   background: url(images/donation7.jpg);
+   height: 500px;
    color: white;
    text-align: center;
-   
 
 }
+.Header h1{
+font-size:  60px;
+}
+
 .donate-today{
     text-align: center;
 }
@@ -59,6 +62,23 @@
 
   
 }
+#ways-of-donate{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+  margin-top: 50px;
+}
+.money h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.money p{
+ margin-left: 100px;
+}
+
 .donate{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -112,24 +132,55 @@ form{
     display: flex;
     justify-content: center;
     background-color: rgb(242, 242, 194);
-    height: 80px;
-   margin-left: 180px;
-   margin-right: 180px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 100px ;
+    margin-right: 100px;
 }
 .subscriber{
+    justify-content: center;
     text-decoration: none;
-    background-color: coral;
+    background-color: rgb(255, 97, 40);
     padding: 5px;
     border-radius: 5px;
     color: white;
-    height: 40px;
+   height: 22px;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-right: 25px;
+    
 
 }
+.subscriber a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
 form input{
-margin-top: 10px;
+margin-top: 30px;
 margin-bottom: 10px;
+margin-left: 2px;
 height: 25px;
 background: rgb(210, 202, 202);
 border: 1px solid gainsboro;
 
+}
+
+footer{
+    text-align: center;
+    background-color: #121212;
+    height: 125px;
+    color: white;
+
+}
+footer h1{
+color: rgb(232, 88, 88);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-top: 50px;
+
+}
+footer p{
+    color: rgb(245, 245, 174);
 }
