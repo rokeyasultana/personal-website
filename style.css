@@ -1,7 +1,7 @@
 body p{
    font-size: 20px;
 }
-
+/* header section */
 .Header{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    background: url(images/donation7.jpg);
@@ -13,7 +13,10 @@ body p{
 }
 .Header h1{
 font-size:  60px;
+color:#FF5959;
 }
+
+/* donate section */
 
 .donate-today{
     text-align: center;
@@ -22,21 +25,21 @@ font-size:  60px;
     font-size: 35px;
     font-weight: 700;
 }
-.donate-today p{
-    font-size: 20px;
-}
+
 .donate-tk{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 #mark-tk{
-    border: 3px solid red;
-    background: rgb(247, 162, 162);
+    border: 2px solid #FF5959;
+    background:  #FFEEEE;;
     border-radius: 2px;
     width: 100px;
     padding-left: 20px;
 }
+
 .tk{
     box-shadow: 10px 10px 40px rgb(231, 219, 219);
     border-radius: 5px;
@@ -50,30 +53,110 @@ font-size:  60px;
     justify-content: center;
     margin-top: 50px;
     align-items: center;
+    border-left: 180px;
+    border-right: 180px;
     border-top: 1px solid gray;
+   
 }
+
 
 #amount{
     text-align: center;
 }
 .button{
     
-    background-image: linear-gradient(coral,coral);
+   background: #FF5959;
    text-decoration: none;
-  font-weight: 400px;
+   font-weight: 400px;
    padding: 10px 40px;
    border-radius: 5px;
    color: white;
 
   
 }
+
+/* Donate plan section  */
+.donate{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+     margin-bottom: 100px;
+}
+#donate-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #121212;
+}
+
+.donate-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px ;
+    margin-right: 150px;
+    height: 200px;
+    margin-top:100px ;
+    margin-bottom: 100px;
+    
+}
+
+#food{
+    align-items: center;
+    background-color:  rgba(79, 157, 166, 0.1)
+    ;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 360px;
+    height: 340px;
+}
+#food h1{
+    font-size: 20px;
+    
+}
+
+
+#shelter{
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(255, 89, 89, 0.1);
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 360px;
+    height: 340px;
+}
+
+#shelter h1 {
+    font-size: 20px;
+}
+
+#education{
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FFF4D6;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 360px;
+    height: 340px;
+}
+
+#education h1{
+    font-size: 20px;
+}
+
+/* bonus section */
+
 #ways-of-donate{
 
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width:30%;
-  margin-top: 50px;
+  margin-top: 200px;
+  border-radius: 10px;
 }
 .money h1{
     text-align: center;
@@ -84,45 +167,8 @@ font-size:  60px;
  margin-left: 100px;
 }
 
-.donate{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 50px;
-   
-}
-#donate-title{
-    font-size: 30px;
-    font-weight: bold;
-    color: #121212;
-}
-.donate-plan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
-}
-#food{
-    align-items: center;
-    background-color: rgb(199, 240, 241);
-    margin-left: 10px;
-    margin-right: 15px;
-    padding: 10px;
-}
-#shelter{
-    align-items: center;
-    background-color: rgb(248, 207, 190);
-    margin-left: 10px;
-    margin-right: 15px;
-    padding: 10px;
-}
-#education{
-    align-items: center;
-    background-color: rgb(253, 253, 179);
-    margin-left: 10px;
-    margin-right: 15px;
-    padding: 10px;
-}
+/* update section */
+
 .updates h1{
 font-size: 35px;
 font-weight: bold;
@@ -137,7 +183,7 @@ margin-top: 50px;
 form{
     display: flex;
     justify-content: center;
-    background-color: rgb(242, 242, 194);
+    background-color: #FFF4D6;;
     height: 150px;
     margin-top: 0px;
     margin-left: 100px ;
@@ -146,11 +192,11 @@ form{
 .subscriber{
     justify-content: center;
     text-decoration: none;
-    background-color: rgb(255, 97, 40);
+    background-color:#FF5959;
     padding: 5px;
     border-radius: 5px;
     color: white;
-   height: 22px;
+    height: 22px;
     margin-top: 30px;
     text-decoration: none;
     margin-right: 25px;
@@ -162,16 +208,20 @@ form{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    background:  #FF5959;
+    border-radius: 0px 5px 5px 0px;
 }
 form input{
 margin-top: 30px;
 margin-bottom: 10px;
 margin-left: 2px;
 height: 25px;
-background: rgb(210, 202, 202);
+background:  #D9D9D9;
 border: 1px solid gainsboro;
-
+border-radius: 5px 0px 0px 5px;
 }
+
+/* footer */
 
 footer{
     text-align: center;
